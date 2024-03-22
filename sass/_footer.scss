@@ -1,0 +1,65 @@
+.footer {
+    padding: 0 40px 61px;
+
+    &__content {
+
+    }
+
+    &__top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 2px solid rgba(53, 40, 40, 0.5);
+    }
+
+    &__bottom {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: space-between;
+
+        &--text {
+            font-size: 1.4em;
+            color: rgba(53, 40, 40, 0.5);
+            margin-bottom: 0;
+        }
+    }
+
+    &__brand {
+        margin-top: 40px;
+        &--img {
+            width: 67px;
+            height: 85.84px;
+        }
+
+        &--text {
+            margin-top: 40px;
+        }
+
+        &--link {
+            text-transform: none;
+            font-size: 1.6em;
+            line-height: 22.4px;
+            margin-top: 0;   
+        }
+    }
+
+    &__nav {
+        margin-top: 40px;
+        &--head-link {
+            line-height: 22.4px;
+            color: $color;
+            font-size: 1.6em;
+            margin-bottom: 20px;
+        }
+
+        &--link {
+            font-size: 1.6em;
+            color: $color;
+            margin-top: 0;
+            text-transform: capitalize;
+        }
+    }
+}

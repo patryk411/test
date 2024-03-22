@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import './fonts';
+@import './variables';
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $bg;
+    font-family: mori;
+}
+
+
+@import './nav';
+@import './header';
+
+
+.main {
+    @import './video';
+    @import './projects';
+    @import './contact';
+}
+@import './footer';
+
+
+@import './media390';
+@import './media768';
+@import './media1200';
+@import './media1400';
+@import './media1536';
